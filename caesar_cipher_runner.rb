@@ -1,6 +1,6 @@
 require './lib/caesar'
 
-puts "please enter the message you want to decrypt"
+puts "please enter the message you want to encrypt"
 answer = gets.chomp
 
 caesar = Caesar.new
